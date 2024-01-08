@@ -28,3 +28,28 @@ table th{
   padding: 20px;
 }
 
+@media screen and (max-width: 576px) and (min-width: 320px) {
+  table{
+    border: 2px solid yellow;
+  }
+  
+  table thead{
+    border-bottom: 2px solid yellow;
+    border-right: 2px solid yellow;
+  }
+  
+  table tbody{
+    border-bottom: 2px solid yellow;
+  }
+  
+  table tr{
+    border-bottom: 2px solid yellow;
+  }
+  
+  table th{
+    border-right: 2px solid yellow;
+    text-align: left;
+  }
+  
+}
+

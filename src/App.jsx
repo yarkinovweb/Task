@@ -61,7 +61,7 @@ const App = () => {
 
   const edit = (value) => {
     setChose(value.id);
-    setText(value.title)
+    setText(value.title);
   };
 
   const getValue = (e) => {
@@ -138,9 +138,9 @@ const App = () => {
                   {
                     value.id == chose 
                     ? 
-                    (<button onClick={saveInfo} className="btn btn-error">Saqlash</button>) 
+                    (<button onClick={saveInfo} className="btn btn-info">Saqlash</button>) 
                     : 
-                    (<button onClick={() => edit(value)}className="btn btn-error">Vazifani Tahrirlash</button>)
+                    (<button onClick={() => edit(value)}className="btn btn-info">Vazifani Tahrirlash</button>)
                   }
                 </th>
               </tr>
