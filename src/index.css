@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+table{
+  border: 5px solid yellow;
+}
+
+table thead{
+  border-bottom: 5px solid yellow;
+  border-right: 5px solid yellow;
+}
+
+table tbody{
+  border-bottom: 5px solid yellow;
+}
+
+table tr{
+  border-bottom: 5px solid yellow;
+}
+
+table th{
+  border-right: 5px solid yellow;
+  text-align: left;
+}
+
+.app{
+  padding: 20px;
+}
+

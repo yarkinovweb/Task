@@ -1,0 +1,44 @@
+{
+  "vazifalar": [
+    {
+      "id": 1,
+      "vazifa": "Anatomiyadan, Ibn Sino haqida o'qib, insho yozib kelish"
+    },
+    {
+      "id": 2,
+      "vazifa": "Matematikadan, 10-15-misollarni ishlab kelish"
+    },
+    {
+      "id": 3,
+      "vazifa": "Ona tilidan, diktant yozish"
+    },
+    {
+      "id": 4,
+      "vazifa": "Fizikadan, formula yodlash "
+    },
+    {
+      "id": 5,
+      "vazifa": "Jismoniy tarbiyadan, 10ta turnik tortinish"
+    },
+    {
+      "id": 6,
+      "vazifa": "Huquqdan, 10ta modda yodlash"
+    },
+    {
+      "id": 7,
+      "vazifa": "Tarixdan, Tutanxamon mavzusini yoritish"
+    },
+    {
+      "id": 8,
+      "vazifa": "Ingliz tilidan, lug'at yodlash"
+    },
+    {
+      "id": 9,
+      "vazifa": "Rus tilidan, sher yodlash"
+    },
+    {
+      "id": 10,
+      "vazifa": "Biologiyadan, labaratoriya ishini bajarish"
+    }
+  ]
+}
