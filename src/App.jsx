@@ -55,7 +55,7 @@ const App = () => {
   };
 
   const addNewText = () => {
-    setAllData([...allData, { id: allData.length + 1, title: newText }]);
+    setAllData([{ id: allData.length + 1, title: newText }, ...allData ]);
     setNewText("");
   };
 
