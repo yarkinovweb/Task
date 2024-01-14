@@ -17,7 +17,7 @@ const App = () => {
   // localStorage.setItem("mal", JSON.stringify(data));
 
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos")
+    fetch("https://jsonplaceholder.typicode.com/todos?_limit=5")
       .then((response) => {
         if (response.ok) {
           return response.json();
